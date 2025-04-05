@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/index.mjs" type="module"></script>
+		<title>Conference ticket generator</title>
+	</head>
+	<body>
+		<main class="main">
+			<header class="header">
+				<div class="header__wrapper">
+					<img
+						src="./assets/images/icons/logo-mark.svg"
+						alt="logo coding conf"
+						class="header__logo" />
+					<span class="header__name">Coding Conf</span>
+				</div>
+				<div class="header__information">
+					<h1 class="header__title">
+						Your Journey to Coding Conf 2025 Starts Here!
+					</h1>
+					<p class="header__phrase">
+						Secure your spot at next year's biggest coding conference.
+					</p>
+				</div>
+			</header>
+			<!--  -->
+			<form action="" class="form">
+				<!--  -->
+				<label class="form __label" for="upload">Upload Avatar</label>
+				<div class="form __group">
+					<span class="form __zone-prompt">
+						Drop file here or click to upload
+					</span>
+					<img class="form __upload-logo" src="" alt="" />
+					<input class="form __input" type="file" id="upload" required />
+				</div>
+				<!--  -->
+				<div class="form__group">
+					<label class="form__label" for="name">Full Name</label>
+					<input class="form__input" type="text" id="name" required />
+				</div>
+
+				<div class="form__group">
+					<label class="form__label form__label--active" for="email">Email Address</label>
+					<input class="form__input" type="email" id="email" required />
+				</div>
+
+				<div class="form__group">
+					<label class="form__label" for="username">GitHub Username</label>
+					<input class="form__input" type="text" id="username" required />
+				</div>
+
+				<button class="form__submit" type="submit">
+					<span class="form__cover" aria-hidden="true"></span>
+					<span class="form__texto">
+						<span class="form__texto form__texto-1">Generate My Ticket</span>
+						<span class="form__texto form__texto-2" aria-hidden="true">
+							Generate My Ticket
+						</span>
+					</span>
+				</button>
+				<!--  -->
+			</form>
+		</main>
+
+		<!-- Congrats, -->
+		<!-- Your ticket is ready. -->
+
+		<!-- We've emailed your ticket to -->
+		<!-- and will send updates in the run up to the event. -->
+
+		<!--  -->
+		<!-- Coding Conf -->
+		<!--  -->
+		<!-- Jan 31, 2025 / Austin, TX -->
+		<!--  -->
+	</body>
+</html>
