@@ -92,7 +92,7 @@ body {
   hyphens: manual;
   font-smooth: always;
   padding-bottom: 15rem;
-  background-image: url("../../../build/assets/images/ilustration/background-desktop.png");
+  background-image: url("../assets/images/ilustration/background-desktop.png");
   font-family: "Inconsolata Regular";
   color: hsl(0, 0%, 100%);
   -webkit-font-smoothing: antialiased;
